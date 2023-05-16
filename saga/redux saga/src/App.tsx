@@ -1,12 +1,17 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+
 import "./App.css";
+import Button from "./component/Button";
+import Loading from "./component/Loading";
+import UserData from "./component/UserData";
 
 function App() {
   return (
     <>
-      <div>this is saga..</div>
+      <h1>saga</h1>
+      <Button />
+      <Loading />
+      <UserData />
     </>
   );
 }
